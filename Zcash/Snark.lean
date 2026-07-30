@@ -34,6 +34,7 @@ import Zcash.Snark.Verifier.Expressions
 import Zcash.Snark.Verifier.Assemble
 import Zcash.Snark.Verifier.FiatShamir
 import Zcash.Snark.Verifier.Parametric
+import Zcash.Snark.Verifier.GroupingRef
 import Zcash.Snark.Fingerprint.Match
 -- The quantified random match — the sample space, the good event's enumerated
 -- denominator factors, and the rational-representation walk of the assembled coefficients.
@@ -41,6 +42,7 @@ import Zcash.Snark.Fingerprint.Rational.Vars
 import Zcash.Snark.Fingerprint.Rational.Event
 import Zcash.Snark.Fingerprint.Rational.Rep
 import Zcash.Snark.Fingerprint.Rational.QueryWalk
+import Zcash.Snark.Fingerprint.Rational.QueryTable
 import Zcash.Snark.Fingerprint.Epsilon
 import Zcash.Snark.Soundness.GrandProduct
 import Zcash.Snark.Soundness.Lookup
